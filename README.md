@@ -76,10 +76,20 @@ python tools/train.py retinanet_r101_fpn_2x_coco/retinanet_r101_fpn_2x_coco_rsna
 python ./tools/analysis_tools/analyze_logs.py plot_curve retinanet_r101_fpn_2x_coco/20220104_211554.log.json --keys bbox_mAP --legend loss_cls --out losses.pdf
 ```
 
-## Model 2 result
+## Weight for Training Mode2
+
+You can download the file here:
+
+- [The file of weight](https://drive.google.com/file/d/1-0Z5-KVMfY_B-9U-PoXQQsq-_4yO5SPE/view?usp=sharing)
+
+## Model 2 testing
 
 ```setup
 python ./tools/test.py  retinanet_r101_fpn_2x_coco/retinanet_r101_fpn_2x_coco_rsna.py retinanet_r101_fpn_2x_coco/epoch_30.pth --out result_retinanet/result.pkl --eval bbox
 ```
 
+## Model 2 result
+
+![image](https://user-images.githubusercontent.com/68366624/148250246-a397ea2d-0cd9-4899-b658-c8424cfcc3f2.png)
+![image](https://user-images.githubusercontent.com/68366624/148250306-52942d86-b837-4864-97a1-473b9a9a8878.png)
 
