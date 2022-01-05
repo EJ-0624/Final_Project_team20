@@ -52,6 +52,11 @@ pip install -v -e .  # or "python setup.py develop"
 
 ![image](https://user-images.githubusercontent.com/68366624/148247990-bce17382-fddd-4cef-8b1c-1812463002b1.png)
 
+## Relate Work
+
+![image](https://user-images.githubusercontent.com/68366624/148248420-65815157-e961-46d6-9f36-a8dd4817bdce.png)
+
+
 
 ## Model 1 for Efficientnet-b2
 ```setup
