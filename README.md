@@ -65,6 +65,21 @@ python rsna_efficientnet_b2.py
 ![image](https://user-images.githubusercontent.com/68366624/148248981-7acaea7b-f13c-4c64-9a5d-a786c76248ea.png)
 ![image](https://user-images.githubusercontent.com/68366624/148248847-508da98f-7577-4e3e-9e31-b0d385f41128.png)
 
+## Model 2 for objectdetection
+```setup
+python tools/train.py retinanet_r101_fpn_2x_coco/retinanet_r101_fpn_2x_coco_rsna.py --work-dir retinanet_r101_fpn_2x_coco
+```
+
+## Model 2 log analysis
+
+```setup
+python ./tools/analysis_tools/analyze_logs.py plot_curve retinanet_r101_fpn_2x_coco/20220104_211554.log.json --keys bbox_mAP --legend loss_cls --out losses.pdf
+```
+
+## Model 2 result
+
+```setup
+python ./tools/test.py  retinanet_r101_fpn_2x_coco/retinanet_r101_fpn_2x_coco_rsna.py retinanet_r101_fpn_2x_coco/epoch_30.pth --out result_retinanet/result.pkl --eval bbox
+```
 
 
-python train.py --device 0 --batch-size 8 --img 512 512 --data RSNA.yaml --cfg cfg/RSNA.cfg --weights 'RSNA.weights' --name RSNA --epoch 60
