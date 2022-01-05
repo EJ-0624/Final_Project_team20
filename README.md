@@ -21,7 +21,7 @@ pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f ht
 ```
 
 Install mmcv
-# https://github.com/open-mmlab/mmcv
+https://github.com/open-mmlab/mmcv
 
 ```setup
 # method 1
@@ -48,6 +48,10 @@ pip install -v -e .  # or "python setup.py develop"
 ## Train image
 ![image](https://user-images.githubusercontent.com/68366624/148245902-353230a1-c1a0-42e7-b260-a650a4c2cf4b.png)
 
+Dataset: 26,684 train, 3000 test
+![image](https://user-images.githubusercontent.com/68366624/148246813-68c119e8-eaa9-436d-9d74-3332ad003fa4.png)
 
 
+
+##
 python train.py --device 0 --batch-size 8 --img 512 512 --data RSNA.yaml --cfg cfg/RSNA.cfg --weights 'RSNA.weights' --name RSNA --epoch 60
