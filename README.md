@@ -86,7 +86,9 @@ You can download the file here:
 
 ```setup
 python ./tools/test.py  retinanet_r101_fpn_2x_coco/retinanet_r101_fpn_2x_coco_rsna.py retinanet_r101_fpn_2x_coco/epoch_30.pth --out result_retinanet/result.pkl --eval bbox
+python inference.py
 ```
+
 
 ## Model 2 result
 
