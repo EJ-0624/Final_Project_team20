@@ -95,3 +95,7 @@ python inference.py
 ![image](https://user-images.githubusercontent.com/68366624/148250246-a397ea2d-0cd9-4899-b658-c8424cfcc3f2.png)
 ![image](https://user-images.githubusercontent.com/68366624/148250306-52942d86-b837-4864-97a1-473b9a9a8878.png)
 
+## Google Drive link
+
+This contains all the files that need to be used.
+- [Google Drive](https://drive.google.com/drive/folders/1ckZo4hMN0G1rwRQvtwjWLptJQ-ed_vCa?usp=sharing)
