@@ -80,7 +80,7 @@ python ./tools/analysis_tools/analyze_logs.py plot_curve retinanet_r101_fpn_2x_c
 
 You can download the file here:
 
-- [The file of weight](https://drive.google.com/file/d/1-0Z5-KVMfY_B-9U-PoXQQsq-_4yO5SPE/view?usp=sharing)
+- [The file of weight](https://drive.google.com/file/d/1XjnecJAsDEfUMH1m4WLVw1eWWoureL0p/view?usp=sharing)
 
 ## Model 2 testing
 
