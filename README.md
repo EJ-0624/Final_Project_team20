@@ -62,7 +62,7 @@ python rsna_efficientnet_b2.py
 ```
 ## Model 1 result
 
-![image](https://user-images.githubusercontent.com/68366624/148248819-9b0eaa2f-bfd2-42c1-b06c-42d438198cf0.png)
+![image](https://user-images.githubusercontent.com/68366624/148248913-4fa7780e-006b-47d3-b57c-95591bd01dc3.png)
 ![image](https://user-images.githubusercontent.com/68366624/148248847-508da98f-7577-4e3e-9e31-b0d385f41128.png)
 
 
