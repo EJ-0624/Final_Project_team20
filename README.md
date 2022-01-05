@@ -56,12 +56,14 @@ pip install -v -e .  # or "python setup.py develop"
 
 ![image](https://user-images.githubusercontent.com/68366624/148248420-65815157-e961-46d6-9f36-a8dd4817bdce.png)
 
-
-
 ## Model 1 for Efficientnet-b2
 ```setup
 python rsna_efficientnet_b2.py
 ```
+## Model 1 result
+
+![image](https://user-images.githubusercontent.com/68366624/148248727-9cba4d35-2e58-4f5b-a063-f7a048e9fefd.png)
+![image](https://user-images.githubusercontent.com/68366624/148248757-83157629-e728-4066-8d47-1bee07d2a412.png)
 
 
 
